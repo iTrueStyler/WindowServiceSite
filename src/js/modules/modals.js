@@ -13,7 +13,7 @@ const modals = () => {
     }, time);
   }
 
-  showModalBytime(".popup", 3000);
+  // showModalBytime(".popup", 60000);
   function bindModal(triggerSelector, modalSelector, closeSelector) {
     const trigger = document.querySelectorAll(triggerSelector),
       modal = document.querySelector(modalSelector),
