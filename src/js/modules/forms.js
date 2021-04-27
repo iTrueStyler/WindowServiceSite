@@ -1,7 +1,9 @@
 const forms  = ()=>{
 const form = document.querySelectorAll('form'),
-        inputs = document.querySelectorAll('input');
-        phoneInputs = document.querySelectorAll('input[name="user_phone"]');
+        inputs = document.querySelectorAll('input'),
+        phoneInputs = document.querySelectorAll('.phone_input');
+        
+
 
     phoneInputs.forEach(item => {
         item.addEventListener('input', () => {
